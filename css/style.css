@@ -8,6 +8,7 @@
 
 body{
     background-color: #e1d3d9;
+    direction: rtl;
 }
 
 /*********************** Start header *******************/
@@ -162,6 +163,16 @@ header nav {
 }
 
 
+
+
+
+/***************** Flip Card 1 **************/
+
+
+
+/***************** End Flip Card 1 **************/
+
+
 /************ Flip front **********/
 
 .main .content-main .content .apps .flip-card .flip-card-inner .flip-card-front img{
@@ -269,16 +280,12 @@ font-weight: 700;
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
-    width: 700px;
-    height: 400px;
-    /* margin: 30px 10px; */
+    width: 250px;
+    height: 200px;
+    margin: 30px 10px;
     perspective: 1000px;
     cursor: pointer;
     border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
     
   }
   
