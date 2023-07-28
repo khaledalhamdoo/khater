@@ -38,7 +38,7 @@ header nav .logo {
 header nav ul .active {
     padding: 10px 0;
     border-radius: 50%;
-    background-color: #d86b9b;
+    background-color: #fa405d;
 }
 
 header nav ul li {
@@ -60,7 +60,7 @@ header nav ul li:hover {
 
 header nav ul li a:hover {
     border-radius: 50%;
-    background-color: #d86b9b;
+    background-color: #fa405d;
 }
 
 
@@ -236,7 +236,7 @@ header nav ul li a:hover {
 }
 
 .main .content-main .content .apps .flip-card .flip-card-inner .flip-card-back p.number {
-    background-color: #d86b9b;
+    background-color: #fa405d;
     padding: 5px;
     margin-top: 5px;
 }
@@ -385,7 +385,7 @@ footer .footer-text {
 }
 
 footer .footer-text h2 {
-    background-color: #d86b9b;
+    background-color: #fa405d;
     font-family: 'Tajawal', sans-serif;
     padding: 10px 20px;
     border-radius: 15px;
