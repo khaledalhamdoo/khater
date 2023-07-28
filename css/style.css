@@ -168,11 +168,31 @@ header nav ul li a:hover {
 
 
 
-/***************** Flip Card 1 **************/
+/***************** Start images **************/
+
+.images-blat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.images-blat img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 0 0 10px black;
+}
 
 
+@media (max-width: 709px) {
+    .images-blat img{
+        width: 80%;
+    }
 
-/***************** End Flip Card 1 **************/
+}
+
+/***************** End images**************/
 
 
 /************ Flip front **********/
