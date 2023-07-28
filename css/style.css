@@ -35,7 +35,7 @@ header nav .logo {
 }
 
 header nav ul .active {
-    padding: 10px 0;
+    padding: 10px 20px;
     border-radius: 50%;
     background-color: #fa405d;
 }
@@ -50,7 +50,7 @@ header nav ul li a {
     color: white;
     font-size: 22px;
     padding: 10px 20px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 header nav ul li:hover {
