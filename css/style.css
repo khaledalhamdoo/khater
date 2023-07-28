@@ -125,19 +125,21 @@ header nav ul li a:hover {
     font-weight: 500;
     text-align: center;
 }
-
-.main .content-main .content .war1,
-.war2 {
+.main .content-main .content .war1 h1{
+    display: block;
+}
+.main .content-main .content .war1 {
     width: 100%;
-    height: 50px;
+    padding: 20px;
     background-color: #f2cdde;
     border-radius: 10px;
     margin: 0 0 10px 0;
     text-align: center;
     display: flex;
+    display: block;
+    text-align: center;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
     font-weight: 400;
     cursor: pointer;
 }
@@ -180,10 +182,15 @@ header nav ul li a:hover {
 .images-blat img{
     width: 300px;
     height: 200px;
-    margin: 10px;
+    margin: 15px;
     box-shadow: 0 0 10px black;
+    cursor: pointer;
+    transition: .5s;
 }
 
+.images-blat img:hover{
+    transform: scale(1.1);
+}
 
 @media (max-width: 709px) {
     .images-blat img{
